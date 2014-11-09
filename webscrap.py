@@ -15,6 +15,8 @@ def get_population_html_table(html):
 	return tbls
 
 	
+
+	
 tables= get_population_html_table(website_html)
 for t in tables:
 	print t.attributes
